@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Playfair+Display:wght@400;500;600&display=swap');
+
+.title-1 {
+    font-family: 'Playfair Display', serif;
+    @apply lg:text-4xl text-2xl
+}
+.title-2 {
+    font-family: 'PT Sans', sans-serif;
+    @apply lg:text-2xl text-xl
+}
+.regular {
+    font-family: 'PT Sans', sans-serif;
+    @apply lg:text-xl text-lg
+}
+
+.section-spacing {
+  @apply py-8 lg:py-12
+}
+
+#bg {
+    background-image: url('https://res.cloudinary.com/raissaborba/image/upload/v1619034562/portfolio/Group_18_1_cpedmy.png');
+    background-size: cover;
+    background-position: center;
+}

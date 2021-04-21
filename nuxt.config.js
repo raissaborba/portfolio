@@ -16,8 +16,7 @@ export default {
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [
-  ],
+  css: [ '~/assets/style.css'],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
@@ -37,8 +36,14 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/pwa
-    '@nuxtjs/pwa'
+    '@nuxtjs/pwa',
+    'nuxt-i18n'
   ],
+
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en', 'fr', 'pt', 'nl']
+  },
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
